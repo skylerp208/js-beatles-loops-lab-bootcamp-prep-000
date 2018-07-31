@@ -12,7 +12,7 @@ function theBeatlesPlay (musicians, instruments) {
 var facts = ["i'd like to be", "under the sea", "in an octopus's garden", "in the shade"]
 
 function johnLennonFacts (facts) {
-  var garden = ['']
+  var garden = []
   while (garden.length < 4) {
     garden.push(facts[garden.length] + "!!!");
   } return garden
