@@ -13,7 +13,7 @@ var facts = ["i'd like to be", "under the sea", "in an octopus's garden", "in th
 
 function johnLennonFacts (facts) {
   var garden = []
-  while (garden.length > 4) {
+  while (garden.length < facts.length) {
     garden.push(facts[garden.length] + "!!!");
   } 
   return garden
