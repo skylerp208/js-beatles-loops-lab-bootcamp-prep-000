@@ -15,5 +15,6 @@ function johnLennonFacts (facts) {
   var garden = []
   while (garden.length < 4) {
     garden.push(facts[garden.length] + "!!!");
-  } return garden
+  } 
+  return garden
 }
