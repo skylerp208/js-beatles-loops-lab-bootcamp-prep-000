@@ -18,3 +18,12 @@ function johnLennonFacts (facts) {
   } 
   return garden
 }
+
+function iLoveTheBeatles(a) {
+  var love = []
+ do {
+    a++
+    love.push('I love the Beatles!')
+  } while (a < 15)
+  return love
+}
